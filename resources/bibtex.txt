@@ -1,0 +1,6 @@
+@article{herau2023moisst,
+  title={MOISST: Multi-modal Optimization of Implicit Scene for SpatioTemporal calibration},
+  author={Herau, Quentin and Piasco, Nathan and Bennehar, Moussab and Rold{\~a}o, Luis and Tsishkou, Dzmitry and Migniot, Cyrille and Vasseur, Pascal and Demonceaux, C{\'e}dric},
+  journal={arXiv preprint arXiv:2303.03056},
+  year={2023}
+}
