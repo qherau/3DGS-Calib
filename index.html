@@ -118,26 +118,25 @@
 
 <html>
 <head>
-	<title>MOISST: Multimodal Optimization of Implicit Scene for SpatioTemporal calibration</title>
-	<!--<meta property="og:image" content="Path to my teaser.png"/>-->
+	<title>3DGS-Calib: 3D Gaussian Splatting for Multimodal SpatioTemporal Calibration</title>
 	<!-- Facebook automatically scrapes this. Go to https://developers.facebook.com/tools/debug/ if you update and want to force Facebook to rescrape. -->
-	<meta property="og:title" content="MOISST: Multimodal Optimization of Implicit Scene for SpatioTemporal calibration" />
-	<meta property="og:description" content="With the recent advances in autonomous driving and the decreasing cost of LiDARs, the use of multimodal sensor systems is on the rise. 
-		However, in order to make use of the information provided by a variety of complimentary sensors, it is necessary to accurately calibrate them. 
-		We take advantage of recent advances in computer graphics and implicit volumetric scene representation to tackle the problem of multi-sensor spatial and temporal calibration. 
-		Thanks to a new formulation of the Neural Radiance Field (NeRF) optimization, we are able to jointly optimize calibration parameters along with scene representation 
-		based on radiometric and geometric measurements. Our method enables accurate and robust calibration from data captured in uncontrolled and unstructured urban environments, 
-		making our solution more scalable than existing calibration solutions. 
-		We demonstrate the accuracy and robustness of our method in urban scenes typically encountered in autonomous driving scenarios." />
+	<meta property="og:title" content="3DGS-Calib: 3D Gaussian Splatting for Multimodal SpatioTemporal Calibration" />
+	<meta property="og:description" content="Reliable multimodal sensor fusion algorithms require accurate spatiotemporal calibration. 
+		Recently, targetless calibration techniques based on implicit neural representations have proven to provide precise and robust results. 
+		Nevertheless, such methods are inherently slow to train given the high computational overhead caused by the large number of sampled points required for volume rendering. 
+		With the recent introduction of 3D Gaussian Splatting as a faster alternative to implicit representation methods, we propose to leverage this new rendering approach to achieve faster multi-sensor calibration. 
+		We introduce 3DGS-Calib, a new calibration method that relies on the speed and rendering accuracy of 3D Gaussian Splatting to achieve multimodal spatiotemporal calibration that is accurate, 
+		robust, and with a substantial speed-up compared to methods relying on implicit neural representations. 
+		We demonstrate the superiority of our proposal with experimental results on sequences from KITTI-360, a widely used driving dataset." />
 	<meta name="google-site-verification" content="oerUbOFOxhAdGWX30cdj8RT69T7_30mlD8OZdDf02-g" />
-	<meta name="description" content="With the recent advances in autonomous driving and the decreasing cost of LiDARs, the use of multimodal sensor systems is on the rise. 
-		However, in order to make use of the information provided by a variety of complimentary sensors, it is necessary to accurately calibrate them. 
-		We take advantage of recent advances in computer graphics and implicit volumetric scene representation to tackle the problem of multi-sensor spatial and temporal calibration. 
-		Thanks to a new formulation of the Neural Radiance Field (NeRF) optimization, we are able to jointly optimize calibration parameters along with scene representation 
-		based on radiometric and geometric measurements. Our method enables accurate and robust calibration from data captured in uncontrolled and unstructured urban environments, 
-		making our solution more scalable than existing calibration solutions. 
-		We demonstrate the accuracy and robustness of our method in urban scenes typically encountered in autonomous driving scenarios.">
- 	<meta name="keywords" content="calibration, multimodal, spatiotemporal, lidar, camera, nerf, neural radiance field, targetless, automatic, iros, moisst">	
+	<meta name="description" content="Reliable multimodal sensor fusion algorithms require accurate spatiotemporal calibration. 
+		Recently, targetless calibration techniques based on implicit neural representations have proven to provide precise and robust results. 
+		Nevertheless, such methods are inherently slow to train given the high computational overhead caused by the large number of sampled points required for volume rendering. 
+		With the recent introduction of 3D Gaussian Splatting as a faster alternative to implicit representation methods, we propose to leverage this new rendering approach to achieve faster multi-sensor calibration. 
+		We introduce 3DGS-Calib, a new calibration method that relies on the speed and rendering accuracy of 3D Gaussian Splatting to achieve multimodal spatiotemporal calibration that is accurate, 
+		robust, and with a substantial speed-up compared to methods relying on implicit neural representations. 
+		We demonstrate the superiority of our proposal with experimental results on sequences from KITTI-360, a widely used driving dataset.">
+ 	<meta name="keywords" content="calibration, multimodal, spatiotemporal, lidar, camera, nerf, neural radiance field, targetless, automatic, 3DGS-Calib, 3D, Gaussian, Splatting">	
 
 </head>
 	<script async src=""></script>
@@ -145,8 +144,7 @@
 	<br>
 	<center>
 		<p>
-			<span style="font-size:36px">MOISST: Multimodal Optimization of Implicit Scene for SpatioTemporal calibration</span><br>
-			<span style="font-size:32px">IROS 2023</span>
+			<span style="font-size:36px">3DGS-Calib: 3D Gaussian Splatting for Multimodal SpatioTemporal Calibration</span><br>
 		</p>
 		<table align=center width=1000px>
 			<table align=center width=1000px>
@@ -158,12 +156,17 @@
 					</td>
 					<td align=center width=200px>
 						<center>
-							<span style="font-size:20px"><a href="https://scholar.google.fr/citations?user=S3zYmOYAAAAJ&hl">Nathan Piasco</a></span>
+							<span style="font-size:20px"><a href="https://scholar.google.fr/citations?hl=en&user=0jLPiLYAAAAJ">Moussab Bennehar</a></span>
 						</center>
 					</td>
 					<td align=center width=200px>
 						<center>
-							<span style="font-size:20px"><a href="https://scholar.google.fr/citations?hl=en&user=0jLPiLYAAAAJ">Moussab Bennehar</a></span>
+							<span style="font-size:20px"><a href="https://scholar.google.com/citations?user=fMmoHX0AAAAJ&hl">Arthur Moreau</a></span>
+						</center>
+					</td>
+					<td align=center width=200px>
+						<center>
+							<span style="font-size:20px"><a href="https://scholar.google.fr/citations?user=S3zYmOYAAAAJ&hl">Nathan Piasco</a></span>
 						</center>
 					</td>
 					</td>
@@ -172,18 +175,19 @@
 							<span style="font-size:20px"><a href="https://scholar.google.fr/citations?hl=en&user=bRgp2lUAAAAJ">Luis Rold&atilde;o</a></span>
 						</center>
 					</td>
-					</td>
-					<td align=center width=200px>
-						<center>
-							<span style="font-size:20px"><a href="https://www.linkedin.com/in/dzmitry-tsishkou-9b287724/">Dzmitry Tsishkou</a></span>
-						</center>
-					</td>
+
 			
 				</tr>
 			</table>
 			<table align=center width=1000px>
 
 				<tr>
+					</td>
+					<td align=center width=200px>
+						<center>
+							<span style="font-size:20px"><a href="https://www.linkedin.com/in/dzmitry-tsishkou-9b287724/">Dzmitry Tsishkou</a></span>
+						</center>
+					</td>
 
 					<td align=center width=200px>
 						<center>
@@ -207,7 +211,7 @@
 				<tr>
 					<td align=center width=120px>
 						<center>
-							<span style="font-size:24px"><a href='https://arxiv.org/abs/2303.03056'>[Paper]</a></span>
+							<span style="font-size:24px"><a href='https://arxiv.org/abs/2403.11577'>[Paper]</a></span>
 						</center>
 					</td>
 				</tr>
@@ -215,50 +219,20 @@
 		</table>
 	</center>
 
-	<center>
-		<table align=center width=850px>
-			<tr>
-				<td width=260px>
-					<center>
-						<img class="round" style="width:500px" src="./resources/teaser.png"/>
-					</center>
-				</td>
-			</tr>
-		</table>
-	</center>
-	<table align=center width=850px>
-		<center>
-			<tr>
-				<td>
-					<p align="justify"><b>Effect of calibration on novel view synthesis:</b> 
-					training positions in
-					<span style="color: #ff0000">red</span>, ground truth positions in 
-					<span style="color: #00ff00">green</span>, 
-					reference position in <span style="color: #0000ff">blue</span>. The RGB
-					images (top) and depth maps (middle) are rendered from an implicit neural
-					3D scene trained from non-calibrated (left) and calibrated with MOISST
-					(right) sensors.</p>
-				</td>
-			</tr>
-		</center>
-	</table>
-
 	<hr>
 
 	<table align=center width=850px>
 		<center><h1>Abstract</h1></center>
 		<tr>
 			<td>
-				<p align="justify">With the recent advances in autonomous driving and the decreasing cost of LiDARs, 
-					the use of multimodal sensor systems is on the rise. 
-					However, in order to make use of the information provided by a variety of complimentary sensors, 
-					it is necessary to accurately calibrate them. We take advantage of recent advances in computer graphics 
-					and implicit volumetric scene representation to tackle the problem of multi-sensor spatial and temporal calibration. 
-					Thanks to a new formulation of the Neural Radiance Field (NeRF) optimization, 
-					we are able to jointly optimize calibration parameters along with scene representation based on radiometric and geometric measurements. 
-					Our method enables accurate and robust calibration from data captured in uncontrolled and unstructured urban environments, 
-					making our solution more scalable than existing calibration solutions. 
-					We demonstrate the accuracy and robustness of our method in urban scenes typically encountered in autonomous driving scenarios.</p>
+				<p align="justify">Reliable multimodal sensor fusion algorithms require accurate spatiotemporal calibration. 
+					Recently, targetless calibration techniques based on implicit neural representations have proven to provide precise and robust results. 
+					Nevertheless, such methods are inherently slow to train given the high computational overhead caused by the large number of sampled points required for volume rendering. 
+					With the recent introduction of 3D Gaussian Splatting as a faster alternative to implicit representation methods, 
+					we propose to leverage this new rendering approach to achieve faster multi-sensor calibration. We introduce 3DGS-Calib, 
+					a new calibration method that relies on the speed and rendering accuracy of 3D Gaussian Splatting to achieve multimodal spatiotemporal calibration that is accurate, 
+					robust, and with a substantial speed-up compared to methods relying on implicit neural representations. 
+					We demonstrate the superiority of our proposal with experimental results on sequences from KITTI-360, a widely used driving dataset.</p>
 			</td>
 		</tr>
 	</table>
@@ -267,7 +241,7 @@
 	<hr>
 	<center><h1>Supplementary video</h1></center>
 	<p align="center">
-		<iframe width="660" height="395" src="https://www.youtube.com/embed/RY1QkHnaoA0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="center"></iframe>
+		<iframe width="660" height="395" src="https://www.youtube.com/embed/ne4lLaBr4kk?si=h1lwncYXnd3XRiiA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="center"></iframe>
 	</p>
 	<hr>
 
@@ -294,11 +268,11 @@
 		<center>
 			<tr>
 				<td>
-					<p align="justify"><b>Overview of MOISST optimization framework: </b>
-					First, the model is initialized with rays generated using rough spatial and temporal calibration
-					priors in addition to the reference frame trajectory. After each optimization step, the rays are regenerated and fed to the NeRF model. We then render
-					RGB images and depth maps which are used along the ground truth ones to compute the losses and propagate the gradients. Gradient descent algorithm
-					is finally used to optimize both NeRF and calibration parameters.</p>
+					<p align="justify"><b>Pipeline of 3DGS-Calib: </b>
+					The Gaussians’ positions are given as input to the neural network which predicts their parameters. In parallel, the
+					calibration parameters provide the input pose that transforms the Gaussians from the world frame to the image frame. Then, the 3D Gaussians are splatted
+					using their predicted parameters to generate the rendered image. This image is compared to its ground-truth (GT) counterpart to compute the photometric
+					loss. Finally, the gradients are backpropagated to the neural network and the calibration parameters.</p>
 				</td>
 			</tr>
 		</center>
@@ -309,10 +283,10 @@
 		<center><h1>Cite</h1></center>
 		<tr>
 			<td><a href=""><img class="layered-paper-big" style="height:175px" src="./resources/paper.png"/></a></td>
-			<td><span style="font-size:14pt">Q. Herau, N. Piasco, M. Bennehar, L. Rold&atilde;o, D. Tsishkou, C. Migniot, P. Vasseur, C. Demonceaux.<br>
+			<td><span style="font-size:14pt">Q. Herau, M. Bennehar, A. Moreau, N. Piasco,  L. Rold&atilde;o, D. Tsishkou, C. Migniot, P. Vasseur, C. Demonceaux.<br>
 				<b>MOISST: Multimodal Optimization of Implicit Scene for SpatioTemporal calibration.</b><br>
 				<!-- In Conference, 20XX.<br> -->
-				(hosted on <a href="https://arxiv.org/abs/2303.03056">ArXiv</a>)<br>
+				(hosted on <a href="https://arxiv.org/abs/2403.11577">ArXiv</a>)<br>
 				<!-- (<a href="./resources/camera-ready.pdf">camera ready</a>)<br> -->
 				<span style="font-size:4pt"><a href=""><br></a>
 				</span>
