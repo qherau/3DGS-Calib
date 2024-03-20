@@ -1,0 +1,8 @@
+@misc{herau20243dgscalib,
+      title={3DGS-Calib: 3D Gaussian Splatting for Multimodal SpatioTemporal Calibration}, 
+      author={Quentin Herau and Moussab Bennehar and Arthur Moreau and Nathan Piasco and Luis Roldao and Dzmitry Tsishkou and Cyrille Migniot and Pascal Vasseur and Cédric Demonceaux},
+      year={2024},
+      eprint={2403.11577},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
