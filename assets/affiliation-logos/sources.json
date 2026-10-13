@@ -1,0 +1,51 @@
+[
+  {
+    "file": "huawei.png",
+    "label": "Huawei",
+    "institution_url": "https://www.huawei.com/en/",
+    "source_url": "https://www.huawei.com/-/media/hcomponent-header/1.0.1.20260908162100/component/img/huawei_logo.png",
+    "sha256": "492e58a2680a4f4607185e21d55183f0d2ac976b8f4737512a495672d31e4070"
+  },
+  {
+    "file": "icb.svg",
+    "label": "ICB",
+    "institution_url": "https://icb.ube.fr/",
+    "source_url": "https://icb.cnrs.fr/wp-content/uploads/2024/10/logo-icb.svg",
+    "sha256": "6a18e7c30684d01ebeb2b741e7e3c5317093d46f168c1b578770aa320512b0f7"
+  },
+  {
+    "file": "imvia.png",
+    "label": "ImViA",
+    "institution_url": "https://imvia.ube.fr/",
+    "source_url": "https://imvia.u-bourgogne.fr/wp-content/uploads/2025/01/logo-imvia.png",
+    "sha256": "80d528e691cf60844cf123428d58f75d33e5ded2b58644f6dc342328f3d159b3"
+  },
+  {
+    "file": "mis.png",
+    "label": "MIS",
+    "institution_url": "https://mis.u-picardie.fr/",
+    "source_url": "https://mis.u-picardie.fr/sites/default/files/inline-images/LogoMIS-BW-sans-mention.png",
+    "sha256": "3243749a9e02af2e402c693be1518c91c9856cb656a0f660b511f5c1f3b454f3"
+  },
+  {
+    "file": "cnrs.svg",
+    "label": "CNRS",
+    "institution_url": "https://www.cnrs.fr/",
+    "source_url": "https://www.cnrs.fr/sites/default/files/logo/logo.svg",
+    "sha256": "8dac83c3ccf014ae53d5a0d94c299d8bba26824b21ef4318d3743dfcfbffa719"
+  },
+  {
+    "file": "ube.png",
+    "label": "Universit\u00e9 Bourgogne Europe",
+    "institution_url": "https://www.ube.fr/",
+    "source_url": "https://icb.cnrs.fr/wp-content/uploads/2024/10/logo-UBE-drapeau-quadri-300x210.png",
+    "sha256": "c6c8b91041d7f34fa1e00b85d08819b124e37a277b44986a9af8273486ada2df"
+  },
+  {
+    "file": "upjv.png",
+    "label": "Universit\u00e9 de Picardie Jules Verne",
+    "institution_url": "https://www.u-picardie.fr/",
+    "source_url": "https://mis.u-picardie.fr/sites/default/files/inline-images/Logo-UPJV-bleu.png",
+    "sha256": "7fabc31b6c46d33b5676268e72a7c425dbca6d103d9c4f88ddf3738da28ce90e"
+  }
+]

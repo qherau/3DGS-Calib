@@ -1,0 +1,54 @@
+[
+  {
+    "project": "3DGS-Calib",
+    "file": "resources/paper-results/figure-4-1.png",
+    "paper": "https://arxiv.org/html/2403.11577v2",
+    "figure": 4,
+    "panel": 1,
+    "source_url": "https://arxiv.org/html/2403.11577v2/figures/images/pandey.png",
+    "sha256": "da5b48b18d2c303a9ee12f99029c661869f0c731028dac4936cb67a2ea99237f",
+    "bytes": 460104,
+    "width": 1280,
+    "height": 341,
+    "transformed": false
+  },
+  {
+    "project": "3DGS-Calib",
+    "file": "resources/paper-results/figure-4-2.png",
+    "paper": "https://arxiv.org/html/2403.11577v2",
+    "figure": 4,
+    "panel": 2,
+    "source_url": "https://arxiv.org/html/2403.11577v2/figures/images/lccnet.png",
+    "sha256": "bb01809f8974233d9fc89115f42baeb95c92b36883b39fe9f95c4bd8ca5297c5",
+    "bytes": 674860,
+    "width": 1408,
+    "height": 376,
+    "transformed": false
+  },
+  {
+    "project": "3DGS-Calib",
+    "file": "resources/paper-results/figure-4-3.png",
+    "paper": "https://arxiv.org/html/2403.11577v2",
+    "figure": 4,
+    "panel": 3,
+    "source_url": "https://arxiv.org/html/2403.11577v2/figures/images/lidar_reproject_moisst.png",
+    "sha256": "0978c7f9eebb6b2c09729f2f043bc542aab78071f74d6d3a43a85126ab0cedc7",
+    "bytes": 557128,
+    "width": 1280,
+    "height": 341,
+    "transformed": false
+  },
+  {
+    "project": "3DGS-Calib",
+    "file": "resources/paper-results/figure-4-4.png",
+    "paper": "https://arxiv.org/html/2403.11577v2",
+    "figure": 4,
+    "panel": 4,
+    "source_url": "https://arxiv.org/html/2403.11577v2/figures/images/3DGS_reproject.png",
+    "sha256": "a240cebf239618a82e51801791619dc86c30f4904e10e0e8c3a73ff1def59199",
+    "bytes": 181487,
+    "width": 694,
+    "height": 187,
+    "transformed": false
+  }
+]
